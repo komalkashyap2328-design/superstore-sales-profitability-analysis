@@ -1,0 +1,3 @@
+-- Database Setup Script
+-- Enterprise Sales & Profitability Analysis Project
+-- Created using PostgreSQL
