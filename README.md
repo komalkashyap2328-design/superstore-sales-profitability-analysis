@@ -2,51 +2,65 @@
 
 ## 🔎 Business Problem
 
-Retail organizations often achieve strong sales volume but struggle with profitability due to inefficient discount strategies and regional pricing imbalances.
+Retail organizations often generate strong sales revenue but struggle to maintain healthy profit margins due to aggressive discounting strategies and regional pricing inefficiencies.
 
-The objective of this project is to analyze regional sales performance, evaluate profit margins, identify discount-driven margin erosion, and detect loss-making categories using structured SQL analysis.
+The purpose of this project is to analyze sales and profitability performance across regions and categories using structured SQL techniques. The analysis focuses on identifying revenue concentration, margin erosion, discount impact, and loss-making segments to support data-driven strategic decisions.
+
+---
+
+## 🎯 Project Objectives
+
+- Analyze total revenue and profit distribution by region  
+- Calculate profit margin percentages  
+- Evaluate the impact of discounts on profitability  
+- Identify loss-making categories and sub-categories  
+- Rank top-performing categories within each region  
+- Generate strategic business recommendations  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- PostgreSQL
-- Advanced SQL (Aggregation, Window Functions, Ranking Functions)
-- GitHub (Project Structuring & Version Control)
-- Power BI (Optional Visualization Layer)
+- **PostgreSQL**
+- **Advanced SQL**
+  - Aggregations (SUM, GROUP BY)
+  - Profit Margin Calculations
+  - Window Functions
+  - Ranking Functions
+- **GitHub** (Project structuring & version control)
+- **Power BI** (Optional dashboard visualization layer)
 
 ---
 
 ## 🗂️ Project Architecture
 
-1. Database Creation
-2. Structured Data Import using COPY
-3. KPI Analysis (Revenue, Profit, Margin)
-4. Discount Impact Evaluation
-5. Category & Regional Performance Breakdown
-6. Strategic Recommendation Framework
+1. Database Creation & Table Design  
+2. Structured CSV Data Import using COPY  
+3. Revenue & Profit KPI Analysis  
+4. Margin & Discount Impact Evaluation  
+5. Category & Regional Deep-Dive Analysis  
+6. Strategic Recommendation Framework  
 
 ---
-
 ## 📁 Project Structure
 
 /sql  
-&nbsp;&nbsp;&nbsp;&nbsp;01_database_setup.sql  
-&nbsp;&nbsp;&nbsp;&nbsp;02_data_import.sql  
-&nbsp;&nbsp;&nbsp;&nbsp;03_regional_analysis.sql  
-&nbsp;&nbsp;&nbsp;&nbsp;04_profitability_deep_dive.sql  
+   01_database_setup.sql  
+   02_data_import.sql  
+   03_regional_analysis.sql  
+   04_profitability_deep_dive.sql  
 
-README.md  
+README.md
 
 ---
 
-## 📈 Key Insights
+## 📈 Key Business Insights
 
-- West region generates the highest revenue and strongest overall profitability.
-- Central region demonstrates high sales volume but reduced profit margins due to elevated discount levels.
-- Furniture category shows margin pressure in specific regions.
-- Discount intensity has a direct impact on regional profitability distribution.
-- Profit margin varies significantly across regions despite comparable revenue levels.
+- The **West region** generates the highest revenue and strongest profitability.
+- The **Central region** shows strong sales volume but lower profit margins due to higher discount intensity.
+- The **Furniture category** demonstrates margin pressure in specific regions.
+- Discount levels significantly influence regional profit performance.
+- Profit margin varies considerably across regions despite similar revenue patterns.
 
 ---
 
@@ -55,30 +69,31 @@ README.md
 - Revenue & Profit Aggregation by Region
 - Profit Margin % Calculation
 - Revenue Contribution % using Window Functions
-- Category Ranking within Regions
-- Loss-Making Category Identification
+- Regional Category Ranking
+- Loss-Making Category Detection
 - Discount Impact Analysis
 
 ---
 
-## 🎯 Business Recommendations
+## 💡 Business Recommendations
 
-- Implement a balanced discount strategy in Central region to improve margin retention.
-- Reassess pricing for loss-making furniture sub-categories.
+- Implement a balanced discount strategy in the Central region to improve margin retention.
+- Re-evaluate pricing models for loss-making furniture sub-categories.
 - Optimize promotional campaigns to protect profit while sustaining revenue growth.
-- Monitor regional margin variance using contribution-based analysis.
+- Monitor regional performance using contribution-based profitability analysis.
 
 ---
 
 ## 🚀 Project Outcome
 
-This project simulates a real-world retail analytics scenario by designing an end-to-end analytical workflow using enterprise-level SQL practices.
+This project simulates a real-world retail analytics scenario by building an end-to-end analytical workflow using enterprise-level SQL practices.
 
 It demonstrates:
-- Structured database design
-- Data ingestion and validation
-- KPI-driven analysis
-- Business insight extraction
-- Strategy-oriented recommendations
 
-This analysis framework can be extended into dashboard reporting or predictive modeling for enhanced retail decision-making.
+- Structured database implementation
+- Clean data ingestion process
+- KPI-driven analytical thinking
+- Strategic insight extraction
+- Business-oriented recommendation development
+
+This framework can be extended into dashboard reporting, automation pipelines, or predictive modeling for advanced retail performance analysis.
