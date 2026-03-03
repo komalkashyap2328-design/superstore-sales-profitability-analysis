@@ -1,10 +1,10 @@
-# 📊 Enterprise Sales & Profitability Analysis
+# 📊 Superstore Sales & Profitability Analysis
 
 ## 🔎 Business Problem
 
-Retail organizations often generate strong sales revenue but struggle to maintain healthy profit margins due to aggressive discounting strategies and regional pricing inefficiencies.
+Retail businesses often generate strong sales revenue but struggle to maintain healthy profit margins due to aggressive discounting strategies and inefficient pricing structures.
 
-The purpose of this project is to analyze sales and profitability performance across regions and categories using structured SQL techniques. The analysis focuses on identifying revenue concentration, margin erosion, discount impact, and loss-making segments to support data-driven strategic decisions.
+This project analyzes sales and profitability performance across regions, categories, and sub-categories using structured SQL techniques. The objective is to identify margin erosion drivers, evaluate the impact of discounting, and uncover loss-making segments to support data-driven pricing decisions.
 
 ---
 
@@ -19,16 +19,16 @@ The purpose of this project is to analyze sales and profitability performance ac
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Technical Skills Demonstrated
 
-- **PostgreSQL**
-- **Advanced SQL**
-  - Aggregations (SUM, GROUP BY)
-  - Profit Margin Calculations
-  - Window Functions
-  - Ranking Functions
-- **GitHub** (Project structuring & version control)
-- **Power BI** (Optional dashboard visualization layer)
+- SQL Aggregations (SUM, GROUP BY)
+- Profit Margin Calculations
+- CTE (Common Table Expressions)
+- Window Functions (RANK, PARTITION BY)
+- Revenue Contribution Analysis
+- Discount Sensitivity Modeling
+- CASE-based Segmentation Logic
+- Business Insight Communication
 
 ---
 
@@ -54,13 +54,13 @@ README.md
 
 ---
 
-## 📈 Key Business Insights
+## 📌 Key Insights
 
-- The **West region** generates the highest revenue and strongest profitability.
-- The **Central region** shows strong sales volume but lower profit margins due to higher discount intensity.
-- The **Furniture category** demonstrates margin pressure in specific regions.
-- Discount levels significantly influence regional profit performance.
-- Profit margin varies considerably across regions despite similar revenue patterns.
+- Furniture category showed margin instability despite strong revenue contribution.
+- Tables and Bookcases operate at negative profit margins.
+- High discount levels directly correlate with margin erosion.
+- Sub-categories contributing high revenue do not necessarily rank highest in profitability.
+- High-discount (40%+) transactions consistently generate severe negative margins across all categories.
 
 ---
 
