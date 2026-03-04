@@ -66,12 +66,33 @@ README.md
 
 ## 📊 Analytical Highlights
 
-- Revenue & Profit Aggregation by Region
-- Profit Margin % Calculation
-- Revenue Contribution % using Window Functions
-- Regional Category Ranking
-- Loss-Making Category Detection
-- Discount Impact Analysis
+### Regional Performance
+
+![Regional Performance](screenshots/regional_performance.png)
+
+### Category Profitability Analysis
+
+![Category Profit Analysis](screenshots/category_profit_analysis.png)
+
+### Furniture Subcategory Profitability
+
+![Furniture Subcategory Profitability](screenshots/furniture_subcategory_profit_analysis.png)
+
+### Discount Impact on Furniture Profitability
+
+![Furniture Discount Correlation](screenshots/furniture_discount_correlation.png)
+
+### Advanced Subcategory Performance Model
+
+![Advanced Subcategory Performance Model](screenshots/advanced_subcategory_performance_model.png)
+
+### Subcategory Segmentation Logic
+
+![Advanced Subcategory Segmentation Model](screenshots/advanced_subcategory_segmentation_model.png)
+
+### Discount Band Profitability Analysis
+
+![Discount Band Profitability Analysis](screenshots/discount_band_profitability_analysis.png)
 
 ---
 
