@@ -1,3 +1,13 @@
+## 🔗 Quick Navigation
+
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Project Objectives](#project-objectives)
+- [Technical Skills](#technical-skills-demonstrated)
+- [Key Insights](#key-insights)
+- [Analytical Highlights](#analytical-highlights)
+- [Business Recommendations](#business-recommendations)
+
 # 📊 Superstore Sales & Profitability Analysis
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
