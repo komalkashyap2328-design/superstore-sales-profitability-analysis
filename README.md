@@ -77,11 +77,13 @@ README.md
 
 ## 📊 Analytical Highlights
 
-### Regional Performance
+The following queries demonstrate how SQL was used to uncover key profitability drivers across regions, categories, and discount levels.
+
+### Regional Revenue & Profit Analysis
 
 ![Regional Performance](screenshots/regional_performance.png)
 
-### Category Profitability Analysis
+### Category-Level Profitability
 
 ![Category Profit Analysis](screenshots/category_profit_analysis.png)
 
