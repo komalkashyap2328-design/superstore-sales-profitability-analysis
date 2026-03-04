@@ -1,14 +1,24 @@
+# 📊 Superstore Sales & Profitability Analysis
+
 ## 🔗 Quick Navigation
 
-- [Project Overview](#project-overview)
-- [Business Problem](#business-problem)
-- [Project Objectives](#project-objectives)
-- [Technical Skills](#technical-skills-demonstrated)
-- [Key Insights](#key-insights)
-- [Analytical Highlights](#analytical-highlights)
-- [Business Recommendations](#business-recommendations)
+[Project Overview](#project-overview) • 
+[Business Problem](#business-problem) • 
+[Project Objectives](#project-objectives) • 
+[Technical Skills](#technical-skills-demonstrated) • 
+[Key Insights](#key-insights) • 
+[Analytical Highlights](#analytical-highlights) • 
+[Business Recommendations](#business-recommendations)
 
-# 📊 Superstore Sales & Profitability Analysis
+## 📊 Project Snapshot
+
+**Goal:** Analyze retail sales data to identify profitability drivers and margin erosion.
+
+**Tools Used:** PostgreSQL, Advanced SQL (CTEs, Window Functions)
+
+**Dataset:** Superstore retail dataset
+
+**Key Outcome:** Identified loss-making furniture subcategories and showed how high discount levels directly reduce profit margins.
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-green)
@@ -66,14 +76,42 @@ This project analyzes sales and profitability performance across regions, catego
 ## 📁 Project Structure
 
 /sql  
-   01_database_setup.sql  
-   02_data_import.sql  
-   03_regional_analysis.sql  
-   04_profitability_deep_dive.sql  
+   `01_database_setup.sql`  
+   `02_data_import.sql`  
+   `03_regional_analysis.sql`  
+   `04_profitability_deep_dive.sql`
 
 README.md
-
 ---
+
+## ⚙️ How to Run This Project
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/komalkashyap2328-design/superstore-sales-profitability-analysis.git
+```
+
+2. Create the database in PostgreSQL
+
+Run the script:
+
+01_database_setup.sql
+
+3. Import the dataset
+
+Run:
+
+02_data_import.sql
+
+4. Execute analytical queries
+
+Run the analysis scripts:
+
+03_regional_analysis.sql  
+04_profitability_deep_dive.sql
+
+5. Review results and insights from query outputs and screenshots.
 
 ## 📌 Key Insights
 
