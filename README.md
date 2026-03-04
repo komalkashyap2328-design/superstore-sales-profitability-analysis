@@ -1,5 +1,16 @@
 # 📊 Superstore Sales & Profitability Analysis
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![SQL](https://img.shields.io/badge/SQL-Advanced-green)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Business%20Insights-orange)
+![Analytics](https://img.shields.io/badge/Analytics-Retail%20Performance-purple)
+
+## 📌 Project Overview
+
+An end-to-end SQL analytics project that investigates revenue distribution, profitability drivers, and discount impact across a retail superstore dataset using PostgreSQL.
+
+---
+
 ## 🔎 Business Problem
 
 Retail businesses often generate strong sales revenue but struggle to maintain healthy profit margins due to aggressive discounting strategies and inefficient pricing structures.
@@ -118,3 +129,9 @@ It demonstrates:
 - Business-oriented recommendation development
 
 This framework can be extended into dashboard reporting, automation pipelines, or predictive modeling for advanced retail performance analysis.
+
+## 📊 Future Improvements
+
+- Power BI Interactive Dashboard
+- Excel Analytical Model
+- Automated KPI Reporting
