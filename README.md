@@ -25,6 +25,23 @@
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Business%20Insights-orange)
 ![Analytics](https://img.shields.io/badge/Analytics-Retail%20Performance-purple)
 
+## 📊 Power BI Dashboard
+
+The insights from the SQL analysis were visualized using Power BI to analyze sales performance, profitability drivers, and the impact of discount strategies.
+
+### Dashboard Preview
+
+![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+
+### Tools Used
+- PostgreSQL
+- Advanced SQL (CTEs, Window Functions)
+- Power BI
+- Data Analysis
+
+### Dataset
+Superstore Retail Dataset (commonly used for sales analytics and BI projects).
+
 ## 📌 Project Overview
 
 An end-to-end SQL analytics project that investigates revenue distribution, profitability drivers, and discount impact across a retail superstore dataset using PostgreSQL.
